@@ -1,0 +1,190 @@
+[ColorEffects:Disabled]
+ChangeSelectionColor=
+Color=#181d2b
+ColorAmount=0.5
+ColorEffect=3
+ContrastAmount=0
+ContrastEffect=0
+Enable=
+IntensityAmount=0
+IntensityEffect=0
+
+[ColorEffects:Inactive]
+ChangeSelectionColor=true
+Color=#090e1a
+ColorAmount=0.025
+ColorEffect=0
+ContrastAmount=0.1
+ContrastEffect=0
+Enable=true
+IntensityAmount=0
+IntensityEffect=0
+
+[Colors:Button]
+BackgroundAlternate=#3b445e
+BackgroundNormal=#252a38
+DecorationFocus=#02d5ff
+DecorationHover=#02d5ff
+ForegroundActive=#dee2f4
+ForegroundInactive=#8790ad
+ForegroundLink=#8bc9ff
+ForegroundNegative=#ffb3b4
+ForegroundNeutral=#ffb286
+ForegroundNormal=#dee2f4
+ForegroundPositive=#00e479
+ForegroundVisited=#ebb2ff
+
+[Colors:Complementary]
+BackgroundAlternate=#0c111d
+BackgroundNormal=#181d2b
+DecorationFocus=#02d5ff
+DecorationHover=#02d5ff
+ForegroundActive=#dee2f4
+ForegroundInactive=#8790ad
+ForegroundLink=#8bc9ff
+ForegroundNegative=#ffb3b4
+ForegroundNeutral=#ffb286
+ForegroundNormal=#bdc6e5
+ForegroundPositive=#00e479
+ForegroundVisited=#ebb2ff
+
+[Colors:Header]
+BackgroundAlternate=#181d2b
+BackgroundNormal=#181d2b
+DecorationFocus=#02d5ff
+DecorationHover=#02d5ff
+ForegroundActive=#dee2f4
+ForegroundInactive=#8790ad
+ForegroundLink=#8bc9ff
+ForegroundNegative=#ffb3b4
+ForegroundNeutral=#ffb286
+ForegroundNormal=#bdc6e5
+ForegroundPositive=#00e479
+ForegroundVisited=#ebb2ff
+
+[Colors:Header][Inactive]
+BackgroundAlternate=#181d2b
+BackgroundNormal=#181d2b
+DecorationFocus=#02d5ff
+DecorationHover=#02d5ff
+ForegroundActive=#dee2f4
+ForegroundInactive=#8790ad
+ForegroundLink=#8bc9ff
+ForegroundNegative=#ffb3b4
+ForegroundNeutral=#ffb286
+ForegroundNormal=#bdc6e5
+ForegroundPositive=#00e479
+ForegroundVisited=#ebb2ff
+
+[Colors:Selection]
+BackgroundAlternate=#02d5ff
+BackgroundNormal=#02d5ff
+DecorationFocus=#02d5ff
+DecorationHover=#5bd2f4
+ForegroundActive=#003642
+ForegroundInactive=#003642
+ForegroundLink=#004b73
+ForegroundNegative=#920023
+ForegroundNeutral=#753400
+ForegroundNormal=#003642
+ForegroundPositive=#005228
+ForegroundVisited=#74009f
+
+[Colors:Tooltip]
+BackgroundAlternate=#3b445e
+BackgroundNormal=#181d2b
+DecorationFocus=#02d5ff
+DecorationHover=#02d5ff
+ForegroundActive=#dee2f4
+ForegroundInactive=#8790ad
+ForegroundLink=#8bc9ff
+ForegroundNegative=#ffb3b4
+ForegroundNeutral=#ffb286
+ForegroundNormal=#dee2f4
+ForegroundPositive=#00e479
+ForegroundVisited=#ebb2ff
+
+[Colors:View]
+BackgroundAlternate=#181d2b
+BackgroundNormal=#0c111d
+DecorationFocus=#02d5ff
+DecorationHover=#00677d
+ForegroundActive=#dee2f4
+ForegroundInactive=#8790ad
+ForegroundLink=#8bc9ff
+ForegroundNegative=#ffb3b4
+ForegroundNeutral=#ffb286
+ForegroundNormal=#dee2f4
+ForegroundPositive=#00e479
+ForegroundVisited=#ebb2ff
+
+[Colors:Window]
+BackgroundAlternate=#3b445e
+BackgroundNormal=#181d2b
+DecorationFocus=#02d5ff
+DecorationHover=#02d5ff
+ForegroundActive=#8bc9ff
+ForegroundInactive=#8790ad
+ForegroundLink=#8bc9ff
+ForegroundNegative=#ffb3b4
+ForegroundNeutral=#ffb286
+ForegroundNormal=#bdc6e5
+ForegroundPositive=#00e479
+ForegroundVisited=#ebb2ff
+
+[General]
+ColorScheme=MaterialYouDark
+ColorSchemeHash=d1c3e86a736d0f22935c8bd64e27fe6d5bd710ef
+TerminalApplication=kitty
+TerminalService=kitty.desktop
+UseSystemBell=true
+XftHintStyle=hintslight
+XftSubPixel=none
+font=JetBrainsMono NF,10,-1,5,300,0,0,0,0,0,0,0,0,0,0,1,Regular
+menuFont=JetBrainsMono NF,10,-1,5,300,0,0,0,0,0,0,0,0,0,0,1,Regular
+smallestReadableFont=JetBrainsMono NF,8,-1,5,300,0,0,0,0,0,0,0,0,0,0,1,Regular
+toolBarFont=JetBrainsMono NF,10,-1,5,300,0,0,0,0,0,0,0,0,0,0,1,Regular
+
+[Icons]
+Theme=Papirus
+
+[KDE]
+LookAndFeelPackage=org.kde.breezedark.desktop
+ShowDeleteCommand=false
+
+[KFileDialog Settings]
+Allow Expansion=false
+Automatically select filename extension=true
+Breadcrumb Navigation=true
+Decoration position=2
+Show Full Path=false
+Show Inline Previews=true
+Show Preview=false
+Show Speedbar=true
+Show hidden files=false
+Sort by=Name
+Sort directories first=true
+Sort hidden files last=false
+Sort reversed=false
+Speedbar Width=140
+View Style=Simple
+
+[KScreen]
+ScreenScaleFactors=eDP-1=1;HDMI-1-0=1;
+
+[PreviewSettings]
+EnableRemoteFolderThumbnail=false
+MaximumRemoteSize=0
+
+[Sounds]
+Theme=ocean
+
+[WM]
+activeBackground=47,50,65
+activeBlend=252,252,252
+activeFont=JetBrainsMono NF,10,-1,5,300,0,0,0,0,0,0,0,0,0,0,1,Regular
+activeForeground=222,226,244
+inactiveBackground=0,101,122
+inactiveBlend=161,169,177
+inactiveForeground=179,235,255
+

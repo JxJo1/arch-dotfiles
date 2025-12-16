@@ -1,0 +1,101 @@
+{
+    "$schema": "https://github.com/fastfetch-cli/fastfetch/raw/dev/doc/json_schema.json",
+    "logo": {
+        "source": "arch",
+        "type": "small",
+        //"height": 20,
+      	"padding": {
+    		"top": 1,
+      	}
+    },
+    "display": {
+          "separator": ""
+    },
+    "modules": [
+        "break",
+        "break",
+        "break",
+        {
+            "type": "title",
+            "format": "\u001b[1;38;5;45m╭──────────── {user-name}@{host-name} ────────────────────────────────╮",
+            "keyWidth": 10,
+        },
+        "break",
+        {
+            "type": "os",
+            "key": "│   OS: ",
+            "keyColor": "#02d5ff",
+        },
+        {
+            "type": "kernel",
+            "key": "│   Kernel: ",
+            "keyColor": "#02d5ff",
+        },
+        {
+            "type": "packages",
+            "key": "│ 󰏖  Packages: ",
+            "keyColor": "#02d5ff",
+        },
+        {
+            "type": "uptime",
+            "key": "│   Uptime: ",
+            "keyColor": "#02d5ff",
+        },
+        {
+            "type": "shell",
+            "key": "│   Shell: ",
+            "keyColor": "#02d5ff",
+        },
+        {
+            "type": "terminal",
+            "key": "│   Terminal: ",
+            "keyColor": "#02d5ff",
+        },
+        {
+            "type": "de",
+            "key": "│   DE: ",
+            "keyColor": "#02d5ff",
+        },
+        {
+            "type": "host",
+            "key": "│   PC: ",
+            "keyColor": "#02d5ff",
+        },
+        {
+            "type": "cpu",
+            "format": "{1} ({3}) @ {7}",
+            "key": "│   CPU: ",
+            "keyColor": "#02d5ff",
+        },
+        {
+            "type": "gpu",
+            "key": "│ 󰢮  GPU {}: ",
+            "keyColor": "#02d5ff",
+        },
+        {
+            "type": "memory",
+            "key": "│   RAM: ",
+            "keyColor": "#02d5ff",
+        },
+        {
+            "type": "disk",
+            "key": "│ 󰋊  Disk ({}): ",
+            "keyColor": "#02d5ff",
+        },
+        {
+            "type": "battery",
+            "key": "│   Battery: ",
+            "keyColor": "#02d5ff",
+        },
+        {
+            "type": "custom",
+            "format": "\u001b[38;2;2;213;255m╰──────────────────────────────────────────────────────────────────╯"
+        },
+        {
+            "type": "colors",
+            "symbol": "circle",
+        },
+        "break",
+        "break",
+    ]
+}

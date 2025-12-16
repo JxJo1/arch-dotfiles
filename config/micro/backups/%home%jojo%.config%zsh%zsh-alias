@@ -1,0 +1,65 @@
+#!/bin/sh
+
+
+
+# Terminal Stuff
+alias c="cmatrix -b -a -s -k -C cyan"
+alias hy="hyfetch"
+alias ff="clear && fastfetch"
+alias ffnormal="clear && fastfetch --config ~/.config/fastfetch/normal.jsonc"
+# alias ffsmall = "clear && fastfetch --config ~/.config/fastfetch/small.jsonc"
+
+
+# ls aliases
+alias ll="ls -l"
+alias ls="ls --color=auto --group-directories-first"
+alias lla="ls -la --color=auto --group-directories-first"
+alias la="ls -A --color=auto --group-directories-first"
+alias lah="ls -lah --color=auto --group-directories-first"
+
+
+alias df="df -h" # Human-readable sizes
+alias du="du -h -d 1"
+alias free="free -m" # Show sizes in MB
+alias grep="grep --color=auto"
+alias lsbk="lsblk"
+alias cp="cp -i"
+alias mv="mv -i"
+alias rm="rm -i"
+alias nv="nvim"
+
+
+alias restartplasma="kquitapp5 plasmashell && kstart5 plasmashell"
+
+
+
+
+# Aliases for pacman & arch linux related things
+
+# Pacman
+alias pacup="sudo pacman -Syu" # Update the system
+alias pacsearch="pacman -Ss" # Search for a package
+alias pacsearchpkgs="pacman -Slq | fzf --multi --preview 'pacman -Si {1}' --layout=reverse | xargs -ro sudo pacman -S" # Search for a package and install the selected packges using fzf's menu
+alias paclistpkgs="pacman -Qq | fzf --multi --preview 'pacman -Qi {1}' | xargs -ro sudo pacman -Rns" # List all of the installed packages on the system and remove the selected packages
+alias pacinfo="pacman -Si" # View info about a specific package
+alias pac="sudo pacman -S" # Install packages
+alias pacremove="sudo pacman -Rns" # Remove packages
+alias paccache="sudo pacman -Sc" # Clear package cache (not recommended)
+alias pacforceref="sudo pacman -Syy" # Forces a refresh of all packages databases even if they are up to date
+alias pacconf="sudo micro /etc/pacman.conf" # Edit the pacman configuration file (requires root privileges)
+
+
+
+# Bootloader and the kernel
+alias grub-regen="sudo grub-mkconfig -o /boot/grub/grub.cfg" # Regenerate grub (the bootloader)
+alias mkic="sudo mkinitcpio -P" # Regenerate the initramfs
+
+# Yay Package Manager (AUR)
+alias ys="yay -S"
+alias ysearch="yay -Ss"
+alias yinfo="yay -Si"
+alias ycache="yay -Sc"
+
+# Mirrorlists & Reflector
+alias refl="sudo reflector --verbose -c "Saudi Arabia" --protocol https,http --sort rate --age 12 --lastest 4 --save /etc/pacman.d/mirrorlist"      # Reflector command for updating and syncing with the mirrors, the closer the mirror is next to where you live, the faster the package download speeds, in my case i chose saudi because it's the closest to where i live
+alias mirrorlist="cat /etc/pacman.d/mirrorlist" # Show the contents of the file

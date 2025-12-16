@@ -1,0 +1,11 @@
+[Daemon]
+Autolock=false
+Timeout=0
+
+[Greeter][LnF][General]
+showMediaControls=false
+
+[Greeter][Wallpaper][org.kde.image][General]
+Image=file:///home/jojo/Pictures/Wallpapers/hatsune-miku.png
+PreviewImage=file:///home/jojo/Pictures/Wallpapers/hatsune-miku.png
+SlidePaths=/usr/share/wallpapers/

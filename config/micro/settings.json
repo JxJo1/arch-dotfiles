@@ -1,0 +1,8 @@
+{
+    "colorscheme": "catppuccin-macchiato-transparent",
+    "pluginchannels": [
+        "https://raw.githubusercontent.com/micro-editor/plugin-channel/master/channel.json"
+    ],
+    "scrollbar": true,
+    "softwrap": true
+}

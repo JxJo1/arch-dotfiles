@@ -1,0 +1,187 @@
+{
+    "$schema": "https://github.com/fastfetch-cli/fastfetch/raw/dev/doc/json_schema.json",
+    "logo": {
+        "source": "~/.config/fastfetch/images/arch-linux-icon-plain.png", // The source for the image
+        "type": "kitty", // Use kitty's image graphics protocol to render custom images
+      	"height": 16,
+      	"padding": {
+    		"top": 6,
+      	}
+    },
+    "display": {
+          "separator": "",
+    },
+    "modules": [
+        "break",
+        "break",
+        {
+            "type": "custom",
+            "format": "\u001b[38;2;2;213;255m┌────────────────\u001b[32m System Information \u001b[38;2;2;213;255m──────────────────┐"
+
+        },
+        {
+            "type": "title",
+            "format": "{user-name}",
+            "key": "    User: ",
+            "keyColor": "#02d5ff",
+        },
+        {
+            "type": "title",
+            "format": "{host-name}",
+            "key": "    Host: ",
+            "keyColor": "#02d5ff",
+        },
+        {
+            "type": "os",
+            "key": "    OS: ",
+            "keyColor": "#02d5ff",
+        },
+        {
+            "type": "kernel",
+            "key": "    Kernel: ",
+            "keyColor": "#02d5ff",
+        },
+        {
+            "type": "packages",
+            "key": "  󰏖  Packages: ",
+            "keyColor": "#02d5ff",
+        },
+        {
+            "type": "uptime",
+            "key": "    Uptime: ",
+            "keyColor": "#02d5ff",
+        },
+        {
+            "type": "command",
+            "key": "    OS Age: ",
+            "keyColor": "#02d5ff",
+            "text": "birth_install=$(stat -c %W /); current=$(date +%s); days_difference=$(( (current - birth_install) / 86400 )); echo $days_difference days",
+        },
+        {
+            "type": "shell",
+            "key": "    Shell: ",
+            "keyColor": "#02d5ff",
+        },
+        {
+            "type": "terminal",
+            "key": "    Terminal: ",
+            "keyColor": "#02d5ff",
+        },
+        {
+            "type": "locale",
+            "key": "    Locale: ",
+            "keyColor": "#02d5ff",
+        },
+        {
+            "type": "custom",
+            "format": "\u001b[38;2;2;213;255m└──────────────────────────────────────────────────────┘"
+
+        },
+        "break",
+        {
+            "type": "custom",
+            "format": "\u001b[38;2;2;213;255m┌──────────────────\u001b[32m Customization \u001b[38;2;2;213;255m──────────────────┐"
+
+        },
+        {
+            "type": "de",
+            "key": "    DE: ",
+            "keyColor": "#02d5ff",
+        },
+        {
+           "type": "wm",
+           "key": "    WM: ",
+           "keyColor": "#02d5ff",
+        },
+        {
+            "type": "wmtheme",
+            "key": "  󰉼  WM Theme: ",
+            "keyColor": "#02d5ff",
+        },
+        {
+            "type": "icons",
+            "key": "  󰀻  Icons: ",
+            "keyColor": "#02d5ff",
+        },
+        {
+            "type": "cursor",
+            "key": "  󰇀  Cursor: ",
+            "keyColor": "#02d5ff",
+        },
+        {
+            "type": "font",
+            "format": "{}",
+            "key": "    System Font: ",
+            "keyColor": "#02d5ff",
+        },
+        {
+            "type": "custom",
+            "format": "\u001b[38;2;2;213;255m└───────────────────────────────────────────────────┘"
+
+        },
+        "break",
+        {
+            "type": "custom",
+            "format": "\u001b[38;2;2;213;255m┌───────────────\u001b[32m Hardware Information \u001b[38;2;2;213;255m───────────────────────────────────────┐"
+
+        },
+        {
+            "type": "host",
+            "key": "    PC: ",
+            "keyColor": "#02d5ff",
+        },
+         {
+            "type": "bios",
+            "format": "{vendor}, {version} ({release}), {date}",
+            "key": "    BIOS: ",
+            "keyColor": "#02d5ff",
+        },
+        {
+            "type": "cpu",
+            "format": "{1} ({3}) @ {7}",
+            "key": "    CPU: ",
+            "keyColor": "#02d5ff",
+        },
+        {
+            "type": "gpu",
+            "key": "  󰢮  GPU {}: ",
+            "keyColor": "#02d5ff",
+        },
+        {
+            "type": "memory",
+            "key": "    RAM: ",
+            "keyColor": "#02d5ff",
+        },
+        {
+            "type": "swap",
+            "key": "  󰓡  Swap: ",
+            "keyColor": "#02d5ff",
+        },
+        {
+            "type": "disk",
+            "key": "  󰋊  Disk ({}): ",
+            "keyColor": "#02d5ff",
+        },
+        {
+            "type": "display",
+            "key": "  󰍹  Display ({2}): ",
+            "keyColor": "#02d5ff",
+        },
+
+        {
+            "type": "battery",
+            "key": "    Battery: ",
+            "keyColor": "#02d5ff",
+        },
+        {
+            "type": "custom",
+            "format": "\u001b[38;2;2;213;255m└────────────────────────────────────────────────────────────────────────────┘"
+        },
+        {
+            "type": "custom",
+            "format": "\u001b[90m  \u001b[31m  \u001b[32m  \u001b[33m  \u001b[34m  \u001b[35m  \u001b[36m  \u001b[37m "
+        },
+        "break",
+        "break",
+    ]
+}
