@@ -5,3 +5,5 @@ Dynamic Workspaces
 Geometry Change
 Kde material you colors
 klassy
+window title 
+kara
